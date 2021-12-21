@@ -1,88 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T02:06:32.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="feIOMR_fnDXwfQQWvBgt" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T11:46:39.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="xebItK-FKb9EvyACrSL8" version="16.0.0" type="github">
   <diagram id="WDN_C8KxTWNd6J8GgOZ-" name="Page-1">
-    <mxGraphModel dx="950" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-1" value="Start&lt;br&gt;-" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="360" y="120" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-3" value="&lt;u style=&quot;font-weight: bold&quot;&gt;On Button Push&lt;/u&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- grab button id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- give button id to js&lt;/span&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="340" y="230" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-4" value="-num button&amp;nbsp;&lt;br&gt;-or op button &lt;br&gt;-or = / c / &amp;lt;-" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="330" y="350" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-5" value="Num button" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
-          <mxGeometry x="160" y="370" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OPFMyvNQhpGu_Gacs0BT-6" target="OPFMyvNQhpGu_Gacs0BT-31">
+        <mxCell id="B97woz72RO7mcEZSM3U5-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPFMyvNQhpGu_Gacs0BT-1" target="OPFMyvNQhpGu_Gacs0BT-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-6" value="op button" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-1" value="Start&lt;br&gt;-disable /*+= &amp;lt;-&lt;br&gt;-" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="330" y="20" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-3" value="&lt;u style=&quot;font-weight: bold&quot;&gt;On Button Push&lt;/u&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- grab button id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- give button id to js&lt;/span&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="340" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-4" value="-num button&amp;nbsp;&lt;br&gt;-or op button &lt;br&gt;-or = / c / &amp;lt;-" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="330" y="350" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-5" value="Num button" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
+          <mxGeometry x="160" y="370" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="OPFMyvNQhpGu_Gacs0BT-6" target="OPFMyvNQhpGu_Gacs0BT-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-6" value="op button" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
           <mxGeometry x="340" y="520" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-8" value="function button" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-8" value="function button" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
           <mxGeometry x="520" y="370" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-10" value="is zero" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-10" value="is zero" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="390" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-12" value="YES&lt;br&gt;replace string with num&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-12" value="YES&lt;br&gt;-replace string with num&lt;br&gt;-enable /*+ &amp;lt;-&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
           <mxGeometry x="30" y="500" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-13" value="NO&lt;br&gt;add num to end of string" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-13" value="NO&lt;br&gt;add num to end of string" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
           <mxGeometry x="170" y="500" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.375;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPFMyvNQhpGu_Gacs0BT-1" target="OPFMyvNQhpGu_Gacs0BT-3">
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OPFMyvNQhpGu_Gacs0BT-3" target="OPFMyvNQhpGu_Gacs0BT-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="340" as="sourcePoint" />
             <mxPoint x="260" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPFMyvNQhpGu_Gacs0BT-3" target="OPFMyvNQhpGu_Gacs0BT-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="340" as="sourcePoint" />
-            <mxPoint x="260" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPFMyvNQhpGu_Gacs0BT-4" target="OPFMyvNQhpGu_Gacs0BT-5">
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OPFMyvNQhpGu_Gacs0BT-4" target="OPFMyvNQhpGu_Gacs0BT-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="210" as="sourcePoint" />
             <mxPoint x="395" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OPFMyvNQhpGu_Gacs0BT-5" target="OPFMyvNQhpGu_Gacs0BT-10">
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="OPFMyvNQhpGu_Gacs0BT-5" target="OPFMyvNQhpGu_Gacs0BT-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="440" as="sourcePoint" />
             <mxPoint x="260" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.523;entryY=-0.035;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="OPFMyvNQhpGu_Gacs0BT-10" target="OPFMyvNQhpGu_Gacs0BT-12">
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.523;entryY=-0.035;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="OPFMyvNQhpGu_Gacs0BT-10" target="OPFMyvNQhpGu_Gacs0BT-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="430" as="sourcePoint" />
             <mxPoint x="120" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OPFMyvNQhpGu_Gacs0BT-10" target="OPFMyvNQhpGu_Gacs0BT-13">
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-25" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="OPFMyvNQhpGu_Gacs0BT-10" target="OPFMyvNQhpGu_Gacs0BT-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="480" as="sourcePoint" />
             <mxPoint x="81.84000000000003" y="507.20000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OPFMyvNQhpGu_Gacs0BT-4" target="OPFMyvNQhpGu_Gacs0BT-6">
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="OPFMyvNQhpGu_Gacs0BT-4" target="OPFMyvNQhpGu_Gacs0BT-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="420" as="sourcePoint" />
             <mxPoint x="270.0000000000002" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPFMyvNQhpGu_Gacs0BT-4" target="OPFMyvNQhpGu_Gacs0BT-8">
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OPFMyvNQhpGu_Gacs0BT-4" target="OPFMyvNQhpGu_Gacs0BT-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="479.9999999999999" as="sourcePoint" />
             <mxPoint x="400" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPFMyvNQhpGu_Gacs0BT-31" value="~store final string&lt;br&gt;~record operator&lt;br&gt;~make editable string the second string&lt;br&gt;~" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="OPFMyvNQhpGu_Gacs0BT-31" value="~store final string&lt;br&gt;~record operator&lt;br&gt;~make second string editable&lt;br&gt;~enable = function&lt;br&gt;~disable opbuttons" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="325" y="660" width="130" height="130" as="geometry" />
         </mxCell>
       </root>
