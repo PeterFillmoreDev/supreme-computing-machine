@@ -2,24 +2,38 @@
 let display = document.querySelectorAll('.disp');
 let btnN = document.querySelectorAll('.btnn');
 let btnO = document.querySelectorAll('.btno');
-let btnC = document.querySelectorAll('.btnO');
+let btnEquals = document.querySelector('#=btn')
+let btnBackspace = document.querySelector('bbtn')
+let btnClearAll = document.querySelector('cebtn')
+
 
 //string array where [1] is the active string and [is the inactive string]
-let disp = ["0","0"];
+let numActive = 0;
+let numInactive = 0;
+let stage = 1;
 
-
-btnN.forEach(item => {
-  item.addEventListener('click', function(e) {
-    if (disp[1] == '0'){
-      disp[1] = item.value;
-      display[1].textContent = disp [1];
+btnN.forEach(numBtn => {
+  numBtn.addEventListener('click', function(e) {
+    if (numActive == '0'){
+      numActive = numBtn.value;
     }
-    else if(item.value == "." && /([.])/i.test(disp[1])){
-      display[1].textContent = disp [1];
-    }
+    else if(numBtn.value == "." && /([.])/i.test(numActive)){}
     else{
-      disp[1] += item.value;
-      display[1].textContent = disp [1];
+      numActive += numBtn.value;
+    }
+    display[1].textContent = numActive;
+  });
+});
+
+
+btnO.forEach(opBtn =>{
+  opBtn.addEventListener('click', function(e){
+    if(stage == 1){
+      numInactive = numActive;
+      numActive = opBtn.value;
+      stage = 2;
+      display[1].textContent = numActive;
+      display[0].textContent = numInactive;
     }
   });
 });
