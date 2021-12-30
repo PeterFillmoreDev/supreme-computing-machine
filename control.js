@@ -6,10 +6,10 @@ let btnEquals = document.querySelector('#eBtn')
 let btnBackspace = document.querySelector('#bbtn')
 let btnClearAll = document.querySelector('#cebtn')
 
-//
+//start sets every thing to 0
 let numActive = 0;
 let numInactive = 0;
-let stage = 1;
+//let stage = 1;
 let opFunction = "";
 
 
@@ -63,9 +63,15 @@ btnEquals.addEventListener('click', e => {
     numActive = 0;
     display[1].textContent = numActive;
     display[0].textContent = numInactive;
-    stage = 1;
+    //stage = 1;
   //};
 });
 
-
+btnClearAll.addEventListener("click", e => {
+  opFunction = "";
+  numInactive = 0;
+  numActive = 0;
+  display[1].textContent = numActive;
+  display[0].textContent = numInactive;
+});
 
