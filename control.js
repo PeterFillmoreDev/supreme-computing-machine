@@ -75,3 +75,17 @@ btnClearAll.addEventListener("click", e => {
   display[0].textContent = numInactive;
 });
 
+btnBackspace.addEventListener("click", e => {
+  function backspace(string){
+    return(string.slice(0, -1));
+  };
+
+  if(numActive.length == 1){
+    numActive = 0;
+  }
+  else{
+    numActive = backspace(numActive);
+  };
+  display[1].textContent = numActive;
+});
+
