@@ -1,5 +1,6 @@
 //grab all elements
 let display = document.querySelectorAll('.disp');
+let signDisplay = document.querySelector('#sign')
 let btnN = document.querySelectorAll('.btnn');
 let btnO = document.querySelectorAll('.btno');
 let btnEquals = document.querySelector('#eBtn')
@@ -40,6 +41,7 @@ btnO.forEach(opBtn =>{
       display[1].textContent = numActive;
       display[0].textContent = numInactive;
       opFunction = opBtn.id;
+      signDisplay.textContent = opBtn.value;
     //}
   });
 });
@@ -73,6 +75,7 @@ btnClearAll.addEventListener("click", e => {
   numActive = 0;
   display[1].textContent = numActive;
   display[0].textContent = numInactive;
+  signDisplay.textContent = "";
 });
 
 btnBackspace.addEventListener("click", e => {
