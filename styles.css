@@ -15,9 +15,24 @@ body{
   border-radius: 6.25px;
 }
 
+#top-row{
+  flex: 1 0 1;
+  align-self: flex-end;
+  justify-content: end;
+}
+
+#bottom-row{
+  flex: 1 0 1;
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+} 
+
+#sign{
+  flex: 1 0 1;
+}
+
 .disp{
-  justify-self: stretch;
-  text-align: right;
   padding-bottom: 10px;
 }
 
@@ -27,7 +42,7 @@ button{
   border-radius: 6.25px;
 }
 
-button,.disp{
+button, .disp, #sign{
   font-size: 32px;
 }
 
