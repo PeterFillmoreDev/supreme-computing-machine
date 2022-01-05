@@ -1,0 +1,61 @@
+body{
+  display: flex;
+  background-color: darkslategray;
+  justify-content: center;
+  align-content: fill;
+}
+
+.outline{
+  flex: 1 0 1;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 6.25px;
+}
+
+#top-row{
+  flex: 1 0 1;
+  align-self: flex-end;
+  justify-content: end;
+}
+
+#bottom-row{
+  flex: 1 0 1;
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+} 
+
+#sign{
+  flex: 1 0 1;
+}
+
+.disp{
+  padding-bottom: 10px;
+}
+
+button{
+  height: 64px;
+  width: 64px;
+  border-radius: 6.25px;
+}
+
+button, .disp, #sign{
+  font-size: 32px;
+}
+
+.btnGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.btno{
+  background-color: wheat;
+}
+
+.btnc{
+  background-color: gray;
+}
